@@ -1,0 +1,48 @@
+//        mTracker?.send(
+//            HitBuilders.EventBuilder()
+//                .setCategory("Log").setAction("Total_Sign_In").build())
+
+        //push it out
+//        db.collection(dayFormatted).document(date)
+//            .set(map)
+//            .addOnSuccessListener { dR ->
+////                val t = Toast.makeText(this,"Success", Toast.LENGTH_LONG)
+////                t.show()
+//                makePopup()
+//            }
+//            .addOnFailureListener { e ->
+//                failToast(e.message)
+//            }
+
+
+
+//        val bundle = Bundle()
+//        bundle.putString(FirebaseAnalytics.Param.ITEM_NAME, text)
+//        firebaseAnalytics.logEvent(text,bundle)
+
+        //make the map
+        val map = hashMapOf(
+            "date" to date,
+            "user" to text
+        )
+
+
+        //Firestore attempt
+        val db = FirebaseFirestore.getInstance()
+
+        //the date for the log
+        val df = SimpleDateFormat("yyyy.MM.dd h:mm:ss a")
+        val date = df.format(Calendar.getInstance().getTime())
+
+        //the date for the collection
+        val day = SimpleDateFormat("yyyy.MM.dd")
+        val dayFormatted = day.format(Calendar.getInstance().getTime())
+
+        //        // Get the widgets reference from custom view
+        //        val buttonPopup = view.findViewById<Button>(R.id.button_popup)
+        //
+        //        // Set a click listener for popup's button widget
+        //        buttonPopup.setOnClickListener{
+        //            // Dismiss the popup window
+        //            popupWindow.dismiss()
+        //        }

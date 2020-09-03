@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF6F00"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/root_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/faculty_staff_button"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_centerVertical="true"
+            android:background="@android:color/holo_red_light"
+            android:onClick="logItem"
+            android:text="Faculty / Staff"
+            android:textColor="@android:color/white"
+            app:autoSizeTextType="uniform"
+            app:autoSizeMinTextSize="16sp"
+            app:autoSizeMaxTextSize="72sp"
+            app:autoSizeStepGranularity="1sp"/>
+
+        <Button
+            android:id="@+id/stu_button"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@android:color/holo_purple"
+            android:onClick="logItem"
+            android:text="Student"
+            android:textColor="@android:color/white"
+            app:autoSizeTextType="uniform"
+            app:autoSizeMinTextSize="16sp"
+            app:autoSizeMaxTextSize="72sp"
+            app:autoSizeStepGranularity="1sp" />
+        <Button
+            android:id="@+id/alumni_button"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@android:color/black"
+            android:onClick="logItem"
+            android:text="Alumni"
+            android:textColor="@android:color/white"
+            app:autoSizeTextType="uniform"
+            app:autoSizeMinTextSize="16sp"
+            app:autoSizeMaxTextSize="72sp"
+            app:autoSizeStepGranularity="1sp" />
+
+        <Button
+            android:id="@+id/guest_button"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@android:color/holo_blue_light"
+            android:onClick="logItem"
+            android:text="Guest"
+            android:textColor="@android:color/white"
+            app:autoSizeTextType="uniform"
+            app:autoSizeMinTextSize="16sp"
+            app:autoSizeMaxTextSize="72sp"
+            app:autoSizeStepGranularity="1sp"/>
+
+
+        <Button
+            android:id="@+id/sponsered_button"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#FF6F00"
+            android:onClick="logItem"
+            android:text="Sponsored Member"
+            android:textColor="@android:color/white"
+            app:autoSizeTextType="uniform"
+            app:autoSizeMinTextSize="16sp"
+            app:autoSizeMaxTextSize="72sp"
+            app:autoSizeStepGranularity="1sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteY="0dp">
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

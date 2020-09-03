@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "63708385672",
+    "firebase_url": "https://slc-pool-usage-sign-in.firebaseio.com",
+    "project_id": "slc-pool-usage-sign-in",
+    "storage_bucket": "slc-pool-usage-sign-in.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:63708385672:android:8bce7c67cc320d06",
+        "android_client_info": {
+          "package_name": "com.example.poolsignin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "63708385672-783r985chhnd2tgb4g6aksb4fs2o9g83.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCToWkVlFHk5algK038EZdM5fg_fi_OJBo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "63708385672-783r985chhnd2tgb4g6aksb4fs2o9g83.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

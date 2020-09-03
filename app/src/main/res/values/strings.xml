@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PoolSignIn</string>
+    <string name="alumni">Alumni</string>
+    <string name="sponsored_member">Sponsored Member</string>
+    <string name="guest">Guest</string>
+    <string name="student">Student</string>
+    <string name="faculty_staff">Faculty / Staff</string>
+    <string name="successfully_signed_in">Successfully signed in!</string>
+</resources>
